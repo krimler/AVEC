@@ -32,7 +32,7 @@ This repository contains a simulation of the AVEC framework to demonstrate its p
 
 ### Installation
 pip install pandas scipy
-python aepb_simulation3.py
+python aepb_simulation_proof2.py
 
 The simulation will execute multiple trials across various scenarios (AVEC Dynamic, Always Delegate, Fixed Epsilon, Always Local) and output statistical analysis results.
 
