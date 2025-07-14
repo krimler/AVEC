@@ -1,0 +1,52 @@
+python3 aepb_simulation_proof2.py
+===== SIMULATION COMPLETE: STATISTICAL ANALYSIS =====
+
+
+Table 1: ANOVA Test Results for Average Simulated Total Cost (Delegated Queries)
+--------------------------------------------------------------------------------
+Metric                    | F-statistic     | P-value         | Significance (p<0.05)
+--------------------------------------------------------------------------------
+Avg Delegated Cost        | 3507.3221       | 0.0000          | Yes
+--------------------------------------------------------------------------------
+
+
+Table 2: Kruskal-Wallis H-test Results for Average Simulated Total Cost (Delegated Queries)
+--------------------------------------------------------------------------------
+Metric                    | H-statistic     | P-value         | Significance (p<0.05)
+--------------------------------------------------------------------------------
+Avg Delegated Cost        | 152.3633        | 0.0000          | Yes
+--------------------------------------------------------------------------------
+
+
+Table 3: Independent Samples t-test Results for Avg Delegated Cost (AEPB HighP vs AlwaysDel)
+--------------------------------------------------------------------------------
+Test                           | T-statistic     | P-value         | Significance (p<0.05)
+--------------------------------------------------------------------------------
+Avg Cost (AEPB HighP vs AlwaysDel) | 4.3404          | 0.0001          | Yes
+--------------------------------------------------------------------------------
+
+
+Table 4: Wilcoxon Signed-Rank Test Results for Avg Delegated Cost (AEPB HighP vs FixedEpsilon_1.0)
+--------------------------------------------------------------------------------
+Test                           | Statistic       | P-value         | Significance (p<0.05)
+--------------------------------------------------------------------------------
+Avg Cost (AEPB HighP vs FixedEps 1.0) | 0.0000          | 0.0000          | Yes
+--------------------------------------------------------------------------------
+
+
+Table 5: Cohen's d for Average Delegated Cost (AEPB HighP vs AlwaysDel)
+--------------------------------------------------------------------------------
+Metric                         | Cohen's d Value
+--------------------------------------------------------------------------------
+Avg Delegated Cost             | 1.1207
+--------------------------------------------------------------------------------
+
+
+Table 6: Cramer's V for Delegation Rate Distribution (AEPB HighP vs AlwaysDel)
+--------------------------------------------------------------------------------
+Metric                         | Cramer's V Value
+--------------------------------------------------------------------------------
+Delegation Rate                | 0.2020
+--------------------------------------------------------------------------------
+
+--- End of Statistical Analysis ---
