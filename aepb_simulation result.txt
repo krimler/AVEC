@@ -1,0 +1,20 @@
+python3  aepb_simulation.py
+===== SIMULATION COMPLETE: STATISTICAL ANALYSIS =====
+
+
+Table 1: ANOVA Test Results for Average Simulated Total Cost (Delegated Queries)
+--------------------------------------------------------------------------------
+Metric                    | F-statistic     | P-value         | Significance (p<0.05)
+--------------------------------------------------------------------------------
+Avg Delegated Cost        | 6839.0943       | 0.0000          | Yes
+--------------------------------------------------------------------------------
+
+
+Table 2: Chi-Squared Test Results for Delegation Rate Distribution
+--------------------------------------------------------------------------------
+Test                           | Chi2 Statistic  | P-value         | Significance (p<0.05)
+--------------------------------------------------------------------------------
+Delegation Rate (AEPB HighP vs AlwaysDel) | 985.4591        | 0.0000          | Yes
+--------------------------------------------------------------------------------
+
+--- End of Statistical Analysis ---

@@ -1,0 +1,20 @@
+python3 aepb_simulation3.py
+===== SIMULATION COMPLETE: STATISTICAL ANALYSIS =====
+
+
+Table 1: Kruskal-Wallis H-test Results for Average Simulated Total Cost (Delegated Queries)
+--------------------------------------------------------------------------------
+Metric                    | H-statistic     | P-value         | Significance (p<0.05)
+--------------------------------------------------------------------------------
+Avg Delegated Cost        | 165.0939        | 0.0000          | Yes
+--------------------------------------------------------------------------------
+
+
+Table 2: Mann-Whitney U-test Results for Delegation Rate (AEPB HighP vs AlwaysDel)
+--------------------------------------------------------------------------------
+Test                           | U-statistic     | P-value         | Significance (p<0.05)
+--------------------------------------------------------------------------------
+Delegation Rate (AEPB HighP vs AlwaysDel) | 0.0000          | 0.0000          | Yes
+--------------------------------------------------------------------------------
+
+--- End of Statistical Analysis ---
